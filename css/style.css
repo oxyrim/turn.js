@@ -1,0 +1,65 @@
+body {
+    overflow: hidden;
+	margin:0;
+	padding:0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+
+}
+.flipbook .page{
+	background: white;
+}
+
+.flipbook .odd {
+	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #fff), color-stop(1, #cacaca));
+    background-image:-webkit-linear-gradient(right, #fff 95%, #cacaca 100%);
+    background-image:-moz-linear-gradient(right, #fff 95%, #cacaca 100%);
+    background-image:-ms-linear-gradient(right, #fff 95%, #cacaca 100%);
+    background-image:-o-linear-gradient(right, #fff 95%, #cacaca 100%);
+    background-image:linear-gradient(right, #fff 95%, #cacaca 100%);
+}
+
+.flipbook .even{
+	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
+    background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-ms-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-o-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:linear-gradient(left, #fff 95%, #dadada 100%);
+}
+.flipbook .shadow, #flipbook.shadow {
+
+	-webkit-box-shadow:0 0 20px #666;
+	-moz-box-shadow:0 0 20px #666;
+	-o-box-shadow:0 0 20px #666;
+	-ms-box-shadow:0 0 20px #666;
+	box-shadow:0 0 20px #666;
+}
+
+.end-text{
+	text-align: center;
+}
+
+.table-contents a:hover {
+	background: burlywood;
+	float: left;
+	width: 100%;
+	clear: both;
+	border-radius: 10px;
+}
+a {
+	text-decoration: none;
+}
+
+.flipbook .table-contents span{
+	float: right;
+	padding-right: 20px;
+}
+
+ul {
+	list-style-type: none;
+	line-height: 25px;
+}
